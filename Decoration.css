@@ -1,0 +1,202 @@
+	body
+{
+	background-color: #e3ccc0;
+}
+	.block
+{
+	margin:-8px;
+	background-color: white;
+	border-top: 1px double #a5958d;
+	border-bottom: 1px double #a5958d;
+	margin-bottom: 30px;
+}
+	.megablock
+{
+	background-color:white;
+	position:relative;
+	margin-left: 10px;
+	border-bottom: 1px double #a5958d;
+	margin-bottom: 20px;
+}
+	.megablocktwo
+{
+	background-color:white;
+	position:relative;
+	margin-left: 10px;
+}
+
+	.bigblocktwo
+{
+	margin-top: 1%;
+	margin-left: -6px;
+	margin-right: -8px;
+	background-color: white;
+	border-bottom: 1px double #a5958d;
+}
+	.bigblockthree
+{
+	margin-top: 1%;
+	margin-left: -6px;
+	margin-right: -8px;
+	background-color: white;
+	border-bottom: 1px double #a5958d;
+}
+	.tarif
+{
+	margin-left:10px;
+	padding: 5px;
+	padding-left:0;
+	font-size: 30px;
+	color: #15dc4b;
+	border-bottom: 1px double #a5958d;
+}
+	.tarifthree
+{
+	margin-left:3%;
+	padding: 5px;
+	padding-left:0;
+	font-size: 30px;
+	color: #15dc4b;
+	border-bottom: 1px double #a5958d;
+}
+	.bigblock
+{
+	padding: 5px;
+	margin-top: -8px;
+	margin-left: -6px;
+	margin-right: -8px;
+	padding-left:0;
+	font-size: 30px;
+	border-bottom: 1px double #a5958d;
+	text-align: center;
+	position: relative;
+}
+	.greenbutton
+{
+	position: absolute;
+	left: 0.5%;
+	top: 50%;
+	transform: translateY(-50%);
+	border: 0;
+	padding:0;
+}
+	.options
+{
+	font-size: 20px;
+}
+	.optionstwo
+{
+	font-size: 20px;
+}
+	.optionsthree
+{
+	font-size: 20px;
+	margin-left: 3%;
+}
+	.onebutton
+{
+	border:0;
+	padding:0;
+	position:absolute;
+	left:85%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+	.speed
+{
+	margin-top: 5px;
+	font-size:30px;
+	color: white;
+	padding:5px;
+	padding-left:10px;
+	display: inline-block;
+	margin-left: -10px;
+}
+	.money
+{
+	font-size:30px;
+}
+	.moneythree
+{
+	font-size: 30px;
+	margin-left: 3%;
+}
+	.link
+{
+	font-size:20px;
+	padding-left:10px;
+	padding:13px;
+	color:#00d1ee;
+}
+	.time
+{
+	margin-left: 3%;
+	border-bottom: 1px double #a5958d;
+	font-weight: 100;
+	color: #b4b4b4;
+	
+}
+	.game
+{
+	color: white;
+	background-color:green;
+	margin:  10px;
+	margin-left: 3%;
+	font-size: 30px;
+	width: 94%;
+	height: 10%;
+}
+	@media screen and (min-width: 1024px){
+		.block{
+			display: inline-block;
+			margin-right: 3%;
+			width: 30%;
+		}
+		.space{
+			margin-left: 6%;
+		}
+		.options{
+			height: 15%;
+		}
+		.bigblocktwo
+		{
+			display:inline-block;
+			margin-right: 1%;
+			width: 28%;
+			margin-left: 3%;
+			vertical-align: top;
+		}
+		.optionstwo
+		{
+			height: 10%;
+		}
+		.bigblocktwo
+		{
+		}
+	}
+	@media screen and (min-width: 640px) and (max-width: 1023px){
+		.block{
+		display:inline-block;
+		margin-right: 3%;
+		width: 47%;
+		}
+		.bigblocktwo
+		{
+			display: inline-block;
+			margin-right: 1%;
+			width: 37%;
+			margin-left: 10%;
+			vertical-align: top;
+		}
+		.optionstwo
+		{
+			height: 10%;
+		}
+		.space{
+			margin-left: 5.5%;
+		}
+		.options{
+			height: 15%
+		}
+	}
+	
